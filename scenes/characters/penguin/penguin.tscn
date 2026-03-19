@@ -601,7 +601,7 @@ blend_shapes/blendShape1.polySurface20 = 1.0
 [node name="L_hip_GRP" type="Node3D" parent="penguinscene" unique_id=467996719]
 
 [node name="L_hip_ctrl" type="Node3D" parent="penguinscene/L_hip_GRP" unique_id=558300102]
-transform = Transform3D(0.99999994, 0, 0, 0, 0.9883542, 0.15217043, 0, -0.15217042, 0.98835427, 0.0076838043, 0.008715291, 0.017938577)
+transform = Transform3D(0.99999994, 0, 0, 0, 0.98835415, 0.15217043, 0, -0.15217042, 0.98835427, 0.0076838043, 0.008715291, 0.017938577)
 
 [node name="L_foot_grp" type="Node3D" parent="penguinscene/L_hip_GRP/L_hip_ctrl" unique_id=65313070]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0076838043, -0.008715291, -0.017938577)
@@ -624,13 +624,13 @@ transform = Transform3D(1, -2.434527e-09, 1.0717761e-09, 1.9010586e-09, 0.935925
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0071897106, -0.00871529, -0.017938599)
 
 [node name="R_foot_ctrl" type="Node3D" parent="penguinscene/r_hip_grp/r_hip_ctrl/r_foot_grp" unique_id=1422526403]
-transform = Transform3D(0.9738733, -0.22287984, 0.043535918, 0.22561042, 0.97143686, -0.07355405, -0.025898688, 0.081454486, 0.9963404, -0.00706337, 0.0018722101, 0.017938599)
+transform = Transform3D(0.9738733, -0.22287983, 0.043535918, 0.22561042, 0.9714368, -0.07355405, -0.025898688, 0.081454486, 0.99634033, -0.00706337, 0.0018722101, 0.017938599)
 
 [node name="r_toes_grp" type="Node3D" parent="penguinscene/r_hip_grp/r_hip_ctrl/r_foot_grp/R_foot_ctrl" unique_id=1199276996]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00706337, -0.0018722101, -0.017938599)
 
 [node name="r_toes_ctrl" type="Node3D" parent="penguinscene/r_hip_grp/r_hip_ctrl/r_foot_grp/R_foot_ctrl/r_toes_grp" unique_id=1162102853]
-transform = Transform3D(0.88575464, -0.039653096, -0.051579513, 0.05116446, -0.010377555, 0.8866051, -0.04018722, -0.8871946, -0.008065317, -0.0070826802, 0.0017418, 0.025681177)
+transform = Transform3D(0.8857546, -0.0396531, -0.051579513, 0.051164456, -0.010377556, 0.8866051, -0.040187217, -0.88719463, -0.008065317, -0.0070826802, 0.0017418, 0.025681177)
 
 [node name="pelvis_grp" type="Node3D" parent="penguinscene" unique_id=432741949]
 
@@ -653,7 +653,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0058902595, 0.032016, 0.01
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0058902595, -0.032016, -0.0179895)
 
 [node name="R_shoulder_ctrl" type="Node3D" parent="penguinscene/pelvis_grp/Pelvis_ctrl/neck_base_grp/neck_base_ctrl/r_clav_grp/R_clav_ctrl/r_shoulder_grp" unique_id=245831479]
-transform = Transform3D(0.58608013, 0.58101755, 0, -0.58101755, 0.58608013, 0, 0, 0, 0.8252705, -0.0116574, 0.032408148, 0.0179895)
+transform = Transform3D(0.5860801, 0.5810175, 0, -0.5810175, 0.5860801, 0, 0, 0, 0.8252705, -0.0116574, 0.032408148, 0.0179895)
 
 [node name="r_elbow_grp" type="Node3D" parent="penguinscene/pelvis_grp/Pelvis_ctrl/neck_base_grp/neck_base_ctrl/r_clav_grp/R_clav_ctrl/r_shoulder_grp/R_shoulder_ctrl" unique_id=362313246]
 transform = Transform3D(0.86661273, -0.84691036, 0, 0.84691036, 0.86661273, 0, 0, 0, 1.2117239, 0.03754925, -0.01821254, -0.021798307)
@@ -677,7 +677,7 @@ transform = Transform3D(0.93761516, -0.1286181, 0, 0.1286181, 0.93761516, 0, 0, 
 transform = Transform3D(1.0468371, 0.14360072, 0, -0.14360072, 1.0468371, 0, 0, 0, 1.0566405, -0.011068789, -0.03262785, -0.018967368)
 
 [node name="l_shoulder_ctrl" type="Node3D" parent="penguinscene/pelvis_grp/Pelvis_ctrl/neck_base_grp/neck_base_ctrl/l_clav_g/l_clav_ctrl/l_shoulder_g" unique_id=675277687]
-transform = Transform3D(0.80892897, -0.58790624, 0, 0.58790624, 0.80892897, 0, 0, 0, 1, 0.011589439, 0.032333236, 0.017950635)
+transform = Transform3D(0.8089289, -0.58790624, 0, 0.58790624, 0.8089289, 0, 0, 0, 1, 0.011589439, 0.032333236, 0.017950635)
 
 [node name="l_elbow_g" type="Node3D" parent="penguinscene/pelvis_grp/Pelvis_ctrl/neck_base_grp/neck_base_ctrl/l_clav_g/l_clav_ctrl/l_shoulder_g/l_shoulder_ctrl" unique_id=879778295]
 transform = Transform3D(0.72045904, 0.6934975, 0, -0.6934975, 0.72045904, 0, 0, 0, 1, -0.030772734, -0.015257524, -0.017950635)
@@ -716,3 +716,4 @@ shape = SubResource("CapsuleShape3D_w34c0")
 
 [node name="Camera3D" type="Camera3D" parent="." unique_id=1801673860]
 transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0.07050099, -0.14033891)
+far = 16000.0
