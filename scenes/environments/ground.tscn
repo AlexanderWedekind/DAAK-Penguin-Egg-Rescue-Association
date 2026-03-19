@@ -1,0 +1,40 @@
+[gd_scene format=3 uid="uid://cl5i1yws7n74e"]
+
+[ext_resource type="PackedScene" uid="uid://bj52x5co530dv" path="res://scenes/objects/crate.tscn" id="1_g6p4a"]
+[ext_resource type="PackedScene" uid="uid://d2nw7p6x6e1h4" path="res://scenes/characters/penguin/penguin.tscn" id="2_babgt"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_fkf57"]
+albedo_color = Color(0.24309605, 0.11861008, 0.0047774585, 1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_g6p4a"]
+material = SubResource("StandardMaterial3D_fkf57")
+size = Vector3(25, 0.1, 25)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_babgt"]
+size = Vector3(25, 0.1, 25)
+
+[node name="Node3D" type="Node3D" unique_id=909012620]
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=1664886687]
+transform = Transform3D(-0.8660254, -0.43301278, 0.25, 0, 0.49999997, 0.86602545, -0.50000006, 0.75, -0.43301266, 0, 0, 0)
+shadow_enabled = true
+
+[node name="ground" type="StaticBody3D" parent="." unique_id=1570700842]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="ground" unique_id=1851352675]
+mesh = SubResource("BoxMesh_g6p4a")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="ground" unique_id=1800737419]
+shape = SubResource("BoxShape3D_babgt")
+
+[node name="crate" parent="." unique_id=1600512592 instance=ExtResource("1_g6p4a")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.2783718, 0.59814036, 0.08989215)
+
+[node name="crate2" parent="." unique_id=262119823 instance=ExtResource("1_g6p4a")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.1795553, 0.049999952, 0.38693976)
+
+[node name="crate3" parent="." unique_id=73494891 instance=ExtResource("1_g6p4a")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.1042842, 1.1964808, 0.31004906)
+
+[node name="Node3D" parent="." unique_id=653335252 instance=ExtResource("2_babgt")]
+transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, 3.4658437, 2.0392835, -4.6940427)

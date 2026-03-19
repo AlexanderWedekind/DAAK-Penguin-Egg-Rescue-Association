@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://bj52x5co530dv"]
+
+[ext_resource type="PackedScene" uid="uid://cm7q0xcq6hh0v" path="res://assets/GLB format/crate.glb" id="1_yourn"]
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_ls5c6"]
+points = PackedVector3Array(0.25, 0.5, 0.25, 0.25, 0, 0.25, 0.25, 0.5, -0.25, -0.25, 0.5, 0.25, 0.25, 0, -0.25, -0.25, 0, 0.25, -0.25, 0.5, -0.25, -0.25, 0, -0.25)
+
+[node name="crate" unique_id=1600512592 instance=ExtResource("1_yourn")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=1732434470]
+shape = SubResource("ConvexPolygonShape3D_ls5c6")

@@ -1,35 +1,3 @@
-# ----------------------------------------------------------------
-# Godot 3.x
-# ----------------------------------------------------------------
-
-# Import cache
-.import/
-
-# Build and export directories
-export/
-build/
-bin/
-
-# Godot-generated files
-*.translation
-*.gen.*
-*.tmp
-
-# Godot editor files
-*.godot
-.project
-
-# Logs
-*.log
-
-# System files
-.DS_Store
-Thumbs.db
-
-# IDEs (optional but recommended)
-.vscode/
-.idea/
-
-# Cache
-cache/
-temp/
+# Godot 4+ specific ignores
+.godot/
+/android/
